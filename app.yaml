@@ -1,9 +1,18 @@
-application: helloworld
+application: atreeaboutme
 version: 1
 runtime: php55
 api_version: 1
 
 handlers:
+- url: /vis
+  static_dir: vis_sandbox
+  secure: always
+- url: /styles
+  static_dir: styles
+  secure: always
+- url: /getNode.json
+  script: getNode.php
+  secure: always
 - url: /.*
   script: index.php
   secure: always

@@ -1,0 +1,84 @@
+#container {
+	width: 100%;
+    margin:20px auto;
+    min-height: 100%;
+}
+
+#content {
+    float:left;
+    width:80%;
+    height: 88%;
+}
+
+#sidebar {
+    float:left;
+    width: 20%;
+    max-width:250px;
+    background-color: #87AFC7;
+}
+
+#header {
+	text-align: center;
+	font-family: Arial;
+    clear:both;
+}
+
+#footer {
+	text-align: center;
+	font-family: Arial;
+    clear:both;
+}
+
+/**
+Add Node Button
+*/
+.addnode_panel {
+  	z-index: 10;
+    position: absolute;
+    bottom: 125px;
+    right: 50px;
+    max-width:250px;
+    text-align: center;
+}
+
+.addnode-btn {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 50px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 30px;
+  background: #3498db;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.addnode-btn:hover {
+  background: #3cb0fd;
+  text-decoration: none;
+}
+
+
+/**
+Logout button
+*/
+.logout_panel {
+  	z-index: 10;
+    position: absolute;
+    bottom: 50px;
+    right: 50px;
+    max-width:250px;
+    text-align: center;
+}
+
+.logout-btn {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 50px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 30px;
+  background: firebrick;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
